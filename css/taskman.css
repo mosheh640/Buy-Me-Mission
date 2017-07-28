@@ -1,0 +1,129 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+a {
+color: #E1704B;
+transition: color 0.5s ease;
+}
+a:hover{
+    cursor:pointer;
+}
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5em;
+    font-weight: 500;
+}
+div.task label.checkbox{
+	border: 1px solid #DDD;
+	border-left-width: 3px;
+	
+	background-color: #FFF;
+	margin-top: 10px;
+	position: relative;
+	font-weight: normal;
+        
+}
+input.rigt_input.ng-pristine.ng-valid {
+    height: 20px;
+}
+input.form-control.ng-valid.ng-dirty {
+    height: 44;
+}
+
+.header-color-orange {
+    http://colorzilla.com/gradient-editor/#ffa84c+0,ff7b0d+100;Orange+3D */
+background: #ffa84c; /* Old browsers */
+background: -moz-linear-gradient(top, #ffa84c 0%, #ff7b0d 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #ffa84c 0%,#ff7b0d 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #ffa84c 0%,#ff7b0d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa84c', endColorstr='#ff7b0d',GradientType=0 );
+   
+    box-sizing: content-box;
+    position: relative;
+    min-height: 38px;
+    padding: 0 12px 0;
+;
+}
+.filter{
+    margin-top: 6px;
+}
+
+.widget-body {
+    
+border-top: 0;
+background-color: #FFF;
+}
+.strike{
+	text-decoration:line-through;
+}
+.header-elements-margin {
+	margin: 5px;
+}
+.rigt_input{
+    direction:rtl;
+    right: 25px ;
+	position: absolute;
+        
+}
+.final{
+    right: 100px ;
+	position: absolute; 
+}
+.ng-binding {
+    float: right;
+}
+.done{
+	 position: relative;
+    right: 200px;
+}
+.total{
+    
+    
+    position: relative;
+    right: 400px;
+
+}
+.add-task{
+	margin-top: 10px;
+}
+input.form-control.ng-pristine.ng-valid {
+    height: 45px;
+    outline: none;
+}
+input.rigt_input.ng-pristine.ng-valid.strike {
+    color: gray;
+}   
+input.rigt_input.ng-pristine.ng-valid {
+    border: none;
+    background-color: transparent;
+}
+.nav-button-margin{
+	margin: 10px 20px 0 0;
+}
+.navbar{
+border-radius: 0;
+background: #438EB9;
+color: #fff;
+}
+.navbar .navbar-brand {
+color: #FFF;
+font-size: 24px;
+text-shadow: none;
+}
+
+i.glyphicon.glyphicon-plus {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 100%;
+    line-height: 28px;
+    color: black;
+}
+
+button.btn.btn-sm.btn-danger.header-elements-margin {
+    background-color: darkgray;
+}
+
+input[type="checkbox"] {
+    float: right!important;
+}
